@@ -2,6 +2,11 @@
 name = "ezinput"
 version = "0.1.2"
 edition = "2021"
+license-file= "LICENSE"
+keywords = ["input", "stdin", "stdlib", "easy"]
+categories = ["command-line-utilities"]
+description = "Rust library that facilitates ask a keyboard user input ⌨️"
+repository = "https://github.com/NexCreep/EZInput"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
