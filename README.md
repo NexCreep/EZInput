@@ -9,13 +9,13 @@ EZInput is a library that implements an easy and fast way to take user input fro
 1.- You must add this to your cargo.toml, in **dependencies** section
 
 ```
-keyezinput = "0.1.2"
+keyezinput = "0.1.3"
 ````
 
 2.- And finally implements in your code like this:
 
 ```rust
-extern crate keyezinput;
+use keyezinput;
 
 fn main(){
     let input: String = keyezinput::input::input_line("Foo input: ");
