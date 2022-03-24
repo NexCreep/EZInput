@@ -1,7 +1,7 @@
 extern crate keyezinput;
 
 fn main(){
-    let input: String = keyezinput::input::input_line("Caca");
+    let input: String = keyezinput::input::input_line("Foo input: ");
 
-    println!("{}", input);
+    println!("Foo output: {}", input);
 }
