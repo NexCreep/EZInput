@@ -1,7 +1,7 @@
-extern crate ezinput-4-keyboard;
+extern crate keyezinput;
 
 fn main(){
-    let input: String = ezinput::input::input_line("Caca");
+    let input: String = keyezinput::input::input_line("Caca");
 
     println!("{}", input);
 }
