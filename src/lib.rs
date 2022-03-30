@@ -22,10 +22,20 @@ pub mod input{
                     Err(e) => panic!("Oops! An error ocurrs in read_line::lib.rs::15 : {}", e)
                 };
             }
-            Err(e) => println!("Oops! An error ocurrs in flush::lib.rs::15 : {}", e)
+            Err(e) => panic!("Oops! An error ocurrs in flush::lib.rs::15 : {}", e)
         }
         
     
-        return input;
+        return clean_input(&mut input);
+    }
+
+    pub fn clean_input(input: &mut String) -> String {
+        let mut clear_str: String = String::new();
+
+        for i in 0..input.len()-2 {
+            clear_str.push(input.chars().nth(i).unwrap());
+        }
+        
+        return clear_str;
     }
 }

@@ -31,6 +31,10 @@ Foo input: bar keyboard
 Foo output: bar keyboard
 ````
 
+## Change Log
+**[v0.1.3 - 22.03]**
+- Patched user input that have to extra chars that difficulties the parse to another type
+
 
 
 
