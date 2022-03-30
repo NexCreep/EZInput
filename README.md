@@ -1,4 +1,4 @@
-# EZInput - For user keyboar input ⌨️
+# EZInput - For user keyboard input ⌨️
 
 ## About
 
@@ -33,7 +33,7 @@ Foo output: bar keyboard
 
 ## Change Log
 **[v0.1.3 - 22.03]**
-- Patched user input that have to extra chars that difficulties the parse to another type
+- Patched user input that have extra chars that difficulties the parse to another type
 
 
 
